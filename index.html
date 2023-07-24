@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap/css/style.css">
+    <style>
+      @font-face {
+        font-family: 'Montserrat'; 
+        src: url('assets/font/static/Montserrat-Medium.ttf');
+      }
+
+        .banner-img {
+            height: 120vh;
+            background: linear-gradient(rgba(0, 124, 189, 0.5) 70%, rgba(255, 255, 255, 0.5)), url("assets/img/Background Hero Section.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+
+        }
+
+        .content-img {
+            height: 130vh;
+            background: url("assets/img/Background Mekanisme Section.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+
+        }
+
+        /* Responsive styles for iPhone 8s */
+        @media (max-width: 375px) {
+            .banner-img {
+                height: 80vh;
+            }
+            .content-img {
+                height: 90vh;
+            }
+            /* Additional styles for iPhone 8s */
+        }
+
+        /* Responsive styles for desktop */
+        @media (min-width: 992px) {
+            .banner-img {
+                height: 120vh;
+            }
+            .content-img {
+                height: 130vh;
+            }
+            /* Additional styles for desktop */
+        }
+
+    </style>
+    <title>Document</title>
+    
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-md navbar-dark navbar-color">
+        <div class="container">
+            <a href="#">
+              <img src="assets/img/logo.png" width="192px" height="50px">
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active mx-4" aria-current="page" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-4" aria-current="page" href="#mechanism">Mechanism</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-4" aria-current="page" href="#latest">Latest Update</a>
+              </li>
+              <li class="nav-item">
+                  <a href="register.html">
+                    <button class="register btn btn-sm btn-light rounded-pill mx-3 px-4 my-1" type="button">Register</button>
+                  </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    
+    <!-- <div class="banner-img"> -->
+        <div class="container-fluid banner-img ">
+          <div class="container banner-content col-lg-8">
+            <div class="text-center">
+              <span style="font-size: 1.4vw;">Detikfinance Business plan Competiton 2023</span>
+              <h3 style="font-size: 3vw;">ENPOWERING  INDONESIA  STARTUP</h3>
+              <span class="text">Detikfinance memberikan peluang kepada para startup di Indonesia untuk menunjukan serta mempromosikan
+                brand mereka untuk mendapatkan perhatian dan venture capital atau angel investor
+              </span><br><br>
+              <button type="button" class="btn btn-primary">Daftarkan startup kamu</button>
+           </div>
+          </div>
+        </div>
+    <!-- </div> -->
+
+    <hr>
+
+    <!-- About -->
+    <div id="about">
+      <div class="container pb-5">
+        <div class="row">
+          <div class="card mx-auto mt-5 pb-5" style="max-width: 90%; border: none; background-color: #F4FBFF;">
+            <div class="row g-0"> 
+              <div class="col-md-5">
+                <iframe width="392px" height="220px" src="https://www.youtube.com/embed/DW0S4gygB0M" class=" rounded-start pt-4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+              <div class="col-md-7">
+                <div class="card-body text-title" style="background-color: #F4FBFF;">
+                  <a href="#" class="card-title">About Detikfinance Business Plan Competition 2023</a>
+                  <p class="card-text">
+                    Detikfinance kali ini akan memberikan ruang bagi startup untuk networking dan memamerkan produk inovasinya di 
+                    hadapan venture capital dan angel investor. Acara ini juga akan menghadirkan para pengembang teknologi dan 
+                    pelaku bisnis untuk memberikan edukasi dan inspirasi bagi masyarakat Indonesia dan teknofilia mengenai 
+                    perkembangan teknologi di Indonesia.
+                  </p>
+                  <span class="share pe-2">Share</span>
+                  <i class="me-1 fa fa-facebook" style="font-size:1.5vw"></i>
+                  <i class="me-1 fa fa-whatsapp" style="font-size:1.5vw"></i>
+                  <i class="fa fa-twitter" style="font-size:1.5vw"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of About -->
+    
+
+    <!-- Mechanism -->
+    <div id="mechanism">
+      <div class="container-fluid content-img ">
+        <div class="container content col-lg-8">
+          <div class="text-left">
+            <span style="font-size: 48px; color: white;">Mekanisme</span>
+            <br>
+
+            <!-- card 1 -->
+            <div class="card mb-3" style="max-width: 751px; max-height: 169px;">
+              <div class="row g-0">
+                <div class="col-1 mt-1">
+                  <img src="assets/icon/registrasi.png" class="img-fluid rounded-start icon-content" alt="...">
+                </div>
+                <div class="col-11 col-sm-12">
+                  <div class="card-body card-field ms-1 row">
+                    <p class="content-title col-lg-8">Registrasi</p>
+                    <p class="content-date col-lg-4 share">1 - 30 Januari 2023</p>
+                    <ol class="content-field">
+                      <li>
+                        Calon peserta diminta untuk mengisi formulir pendaftaran online yang berisi informasi pribadi,
+                        kontak,dan rincian tim pada <a href="#">link berikut</a>
+                      </li>
+                      <li>
+                        Selain itu, peserta juga diharapkan mengunggah ringkasan rencana bisnis mereka yang <br> mencakup visi, misi, strategi, dan analisis pasar
+                      </li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+              <!-- card 2 -->
+            <div class="card mb-3" style="max-width: 751px; max-height: 209px;">
+              <div class="row g-0">
+                <div class="col-1 mt-1">
+                  <img src="assets/icon/seleksi.png" class="img-fluid rounded-start icon-content" alt="...">
+                </div>
+                <div class="col-11 col-sm-12">
+                  <div class="card-body card-field ms-1 row">
+                    <p class="content-title col-lg-9">Seleksi Peserta</p>
+                    <p class="content-date col-lg-3 share">1 - 7 Februari 2023</p>
+                    <ol class="content-field">
+                      <li>
+                        Tim seleksi akan meninjau setiap pendaftaran dan mengevaluasi kualitas dan kelayakan bisnis plan yang diajukan
+                      </li>
+                      <li>
+                        Kriteria evaluasi dapat mencakup inovasi, potensi pertumbuhan, kelayakan keuangan, dan kejelasan presentasi
+                      </li>
+                      <li>
+                        Peserta yang memenuhi persyaratan seleksi akan dipilih sebagai finalis dan berhak melanjutkan ke tahap berikutnya
+                      </li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- card 3 -->
+            <div class="card mb-3" style="max-width: 751px; max-height: 209px;">
+              <div class="row g-0">
+                <div class="col-1 mt-1">
+                  <img src="assets/icon/info.png" class="img-fluid rounded-start icon-content" alt="...">
+                </div>
+                <div class="col-11 col-sm-12">
+                  <div class="card-body card-field ms-1 row">
+                    <p class="content-title col-lg-9">Pengunguman Peseta Terpilih</p>
+                    <p class="content-date col-lg-3 share">8 Februari 2023</p>
+                    <ol class="content-field">
+                      <li>
+                        Pengumuman finalis akan dilakukan melalui email
+                      </li>
+                      <li>
+                        Finalis akan diinformasikan tentang jadwal presentasi dan persiapan yang diperlukan
+                      </li>
+                      <li>
+                        Pada acara pengumuman pemenang, setiap finalis akan mempresentasikan rencana bisnis mereka di hadapan panel juri
+                      </li>
+                      <li>
+                        Setelah presentasi, panel juri akan melakukan evaluasi dan mengumumkan pemenang kompetisi business plan
+                      </li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of Mechanism -->
+
+
+    <!-- Slider -->
+    <div class="container-fluid mt-5">
+      <div class="row">
+            <div class="col-md-12 pb-5">
+              <div class="mx-auto text-title" style="width: 631px; height: 44px;">
+                <center>
+                  <span href="#">
+                    Dapatkan Kesempatan Dilirik oleh Venture Capital / Angel Investor
+                    Serta Menjadi Narasumber di Detikfinance
+                  </span>
+                </center>
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="img-slider">
+                <marquee direction="left" scrollamount="10">
+                  <img src="assets/img/1.png" class="me-3" alt="...">
+                  <img src="assets/img/2.png" class="me-3" alt="...">
+                  <img src="assets/img/3.png" class="me-3" alt="...">
+                  <img src="assets/img/4.png" class="me-3" alt="...">
+                  <img src="assets/img/5.png" class="me-3" alt="...">
+                  <img src="assets/img/6.png" class="me-3" alt="...">
+                  <img src="assets/img/7.png" class="me-3" alt="...">
+                  <img src="assets/img/8.png" class="" alt="...">
+                </marquee>
+              </div>
+            </div>
+            <div class="col-md-12 py-5">
+              <center>
+                <button type="button" class="btn btn-primary">Daftarkan startup kamu</button>
+              </center>
+            </div>
+      </div>
+    </div>
+    <!-- End of Slider -->
+
+
+    <!-- Lates Update -->
+    <div id="latest">
+      <div class="container pt-5 pb-5">
+        <div class="row">
+          <div class="col-12">
+            <span style="font-size: 32px; line-height: 20px; font-weight: 700; color: #007CBD;">LATEST UPDATE</span>
+          </div>
+          <div class="row row-cols-1 row-cols-md-3 g-4 col-12">
+            <div class="col">
+              <div class="card h-100" style="border: none;">
+                <img src="assets/img/news 1.png" class="card-img-top" alt="...">
+                <div class="card-body" style="background-color: #F4FBFF; margin-left: -4%;">
+                  <h5 style="font-size: 14px; font-weight: 700;">Alpha JWC Ventures Suntikkan Dana Segar kepada OnlinePajak dan Stoqo</h5>
+                  <small class="text-muted" style="font-size: 12px;">1 hari yang lalu</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100" style="border: none;">
+                <img src="assets/img/news 2.png" class="card-img-top" alt="...">
+                <div class="card-body" style="background-color: #F4FBFF; margin-left: -4%;">
+                  <h5 style="font-size: 14px; font-weight: 700;">Startup Lifepack Rampungkan Pendanaan Seri A yang Dipimpin Golden Gate Ventures</h5>
+                  <small class="text-muted" style="font-size: 12px;">1 hari yang lalu</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100" style="border: none;">
+                <img src="assets/img/news 3.png" class="card-img-top" alt="...">
+                <div class="card-body" style="background-color: #F4FBFF; margin-left: -4%;">
+                  <h5 style="font-size: 14px; font-weight: 700;">Angel Investor Adalah? Berikut Jenis, Contoh dan Cara Mendapatkannya</h5>
+                  <small class="text-muted" style="font-size: 12px;">1 hari yang lalu</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100" style="border: none;">
+                <img src="assets/img/news 4.png" class="card-img-top" alt="...">
+                <div class="card-body" style="background-color: #F4FBFF; margin-left: -4%;">
+                  <h5 style="font-size: 14px; font-weight: 700;">Crowe Indonesia Gelar Diskusi terkait Valuasi Startup & Laporan ESG</h5>
+                  <small class="text-muted" style="font-size: 12px;">1 hari yang lalu</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100" style="border: none;">
+                <img src="assets/img/news 5.png" class="card-img-top" alt="...">
+                <div class="card-body" style="background-color: #F4FBFF; margin-left: -4%;">
+                  <h5 style="font-size: 14px; font-weight: 700;">Startup Fresh Factory Bangun Ratusan Gudang Dingin di 103 Kota</h5>
+                  <small class="text-muted" style="font-size: 12px;">1 hari yang lalu</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100" style="border: none;">
+                <img src="assets/img/news 6.png" class="card-img-top" alt="...">
+                <div class="card-body" style="background-color: #F4FBFF; margin-left: -4%;">
+                  <h5 style="font-size: 14px; font-weight: 700;">Startup Pertanian RI Dapat Pendanaan Awal, Totalnya Rp 90 M</h5>
+                  <small class="text-muted" style="font-size: 12px;">1 hari yang lalu</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End of Latest Update -->
+
+
+    <!-- Footer -->
+    <footer>
+      <div class="card text-white" style="background-color: #007CBD;">
+        <div class="container-fluid pt-4 ps-5 pe-5 mb-3">
+          <div class="row">
+              <div class="col-12">
+                <img src="/assets/img/detik.png" width="250px" height="66px">
+              </div>
+
+              <div class="col-lg-8 py-3">
+                <span class="card-text footer-text">
+                  Detikfinance memberikan ruang kepada para startup di Indonesia untuk 
+                  menunjukkan, serta mempromosikan brand mereka untuk mendapatkan perhatian 
+                  dari venture capital atau angel investor
+                </span>
+              </div>
+              <div class="col-lg-4 d-flex align-items-center justify-content-end mt-3 pe-3">
+                <img src="assets/icon/Vector.png" class="me-4">
+                <img src="assets/icon/instagram.png" class="me-4">
+                <img src="assets/icon/Vector-1.png">
+              </div>
+
+              <div class="col-12">
+                <hr width="100%" align="center" style="opacity: 1; color: white;">
+              </div>
+
+                <small style="color: #b4b4b4; opacity: 1;">© 2023 Detikcom. All rights reserved</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End of Footer -->
+   
+
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

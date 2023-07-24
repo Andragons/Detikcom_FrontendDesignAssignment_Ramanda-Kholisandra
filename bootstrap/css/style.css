@@ -1,0 +1,136 @@
+body {
+    font-family: 'Montserrat';
+    background-color: #F4FBFF;
+}
+
+.navbar-color {
+    background-color: #007cbd;
+}
+
+.banner {
+    height: 90vh;
+    background-color:  rgb(0, 124, 189);
+    opacity: .60;
+
+}
+
+
+.banner-content {
+    height: 100%;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text {
+  font-style: normal;
+  font-size: 1vw;
+}
+
+.register {
+    color: #007cbd;
+}
+
+hr {
+    color: #007cbd;
+    size: 10%;
+}
+
+.videoWrapper {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    }
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
+
+.text-title a {
+    color: #007cbd;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+}
+.text-title span {
+    color: #007cbd;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.text-title p {
+    padding-top: 1.5%;
+    font-size: 14px;
+}
+
+.text-title i {
+    color: #007cbd;
+}
+
+.share {
+    font-size: 14px;
+    color: #007cbd;
+
+}
+
+.content {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 7%;
+}
+
+.icon-content {
+    margin-top: 20%;
+    /* padding-right: 50%; */
+    margin-left: 30%;
+    /* border: solid; */
+    margin-right: 25%;
+}
+
+.content-title {
+    color: #007cbd;
+    font-size: 18px;
+    font-weight: bold;
+    /* border: solid; */
+    font-weight: 700;
+    
+}
+
+.content-date {
+    font-size: 14px;
+    /* border: solid; */
+    text-align: right;
+}
+
+.content-field {
+    font-size: 12px;
+    /* border: solid; */
+    margin-top: -15px;
+    padding-left: 25px;
+}
+
+.content-field a {
+    color: #3EB7DD;
+    text-decoration: none;
+}
+
+.card-field {
+    padding-left: 30px;
+    padding-right: 25px;
+}
+
+.footer-text {
+    font-size: 14px;
+    font-weight: 600;
+}

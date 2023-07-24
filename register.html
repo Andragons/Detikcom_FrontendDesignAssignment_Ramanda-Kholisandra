@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bootstrap/css/style.css">
+    <style>
+      @font-face {
+        font-family: 'Montserrat'; 
+        src: url('assets/font/static/Montserrat-Medium.ttf');
+      }
+
+        .banner-img {
+            height: 120vh;
+            background: linear-gradient(rgba(0, 124, 189, 0.5) 70%, rgba(255, 255, 255, 0.5)), url("assets/img/Background Hero Section.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+
+        }
+
+        .content-img {
+            height: 130vh;
+            background: url("assets/img/Background Mekanisme Section.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+
+        }
+
+        /* Responsive styles for iPhone 8s */
+        @media (max-width: 375px) {
+            .banner-img {
+                height: 80vh;
+            }
+            .content-img {
+                height: 90vh;
+            }
+            /* Additional styles for iPhone 8s */
+        }
+
+        /* Responsive styles for desktop */
+        @media (min-width: 992px) {
+            .banner-img {
+                height: 120vh;
+            }
+            .content-img {
+                height: 130vh;
+            }
+            /* Additional styles for desktop */
+        }
+
+    </style>
+    <title>Document</title>
+    
+</head>
+<body>
+
+     <!-- Navbar -->
+     <div class="container-fluid">
+        <nav class="navbar fixed-top navbar-expand-md navbar-dark navbar-color">
+            <div class="container">
+                <a href="#">
+                <img src="assets/img/logo.png" width="192px" height="50px">
+                </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active mx-4" aria-current="page" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-4" aria-current="page" href="#mechanism">Mechanism</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mx-4" aria-current="page" href="#latest">Latest Update</a>
+                </li>
+                <li class="nav-item">
+                    <a href="register.html">
+                        <button class="register btn btn-sm btn-light rounded-pill mx-3 px-4 my-1" type="button">Register</button>
+                    </a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </div>
+    <!-- End Navbar -->
+
+
+    <div class="card bg-dark text-white">
+        <img src="assets/img/Background Header Title.png" class="card-img" width="1440px" height="450px">
+        <div class="card-img-overlay d-flex align-items-center justify-content-center"> 
+            <span class="card-title" style="font-size: 48px; font-weight: 700;">Register</span>
+        </div>
+    </div>
+
+    <section class="container-fluid" style="background-color: aliceblue; border: solid; margin-top: -20px;">
+        <!-- justify-content-center untuk mengatur posisi form agar berada di tengah-tengah -->
+        <section class="row justify-content-center">
+        <section class="col-12 col-sm-6 col-md-4">
+            <form class="form-container">
+                <h4 class="text-center font-weight-bold"> Sign-Up </h4>
+                <div class="form-group">
+                    <label for="name">Nama</label>
+                    <input type="text" class="form-control" id="name" placeholder="Masukkan Nama">
+                </div>
+                <div class="form-group">
+                    <label for="InputEmail">Alamat Email</label>
+                    <input type="email" class="form-control" id="InputEmail" aria-describeby="emailHelp" placeholder="Masukkan email">
+                </div>
+                <div class="form-group">
+                    <label for="name">Username</label>
+                    <input type="text" class="form-control" id="username" placeholder="Masukkan username">
+                </div>
+                <div class="form-group">
+                    <label for="InputPassword">Password</label>
+                    <input type="password" class="form-control" id="InputPassword" placeholder="Password">
+                </div>
+                <div class="form-group">
+                    <label for="InputPassword">Re-Password</label>
+                    <input type="password" class="form-control" id="InputRePassword" placeholder="Re-Password">
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Register</button>
+                <div class="form-footer mt-2">
+                    <p> Sudah punya account? <a href="#">Login</a></p>
+                </div>
+            </form>
+        </section>
+        </section>
+    </section>
+</body>
+</html>
